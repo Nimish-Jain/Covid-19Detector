@@ -10,9 +10,9 @@ The app is build on Python progrraming language and the UI/UX is developed on th
 
 Here are some Screenshots of the app.
 
-![Screenshot_1](https://github.com/Nimish-Jain/Covid-19Detector/CovidSS_1)
+![Screenshot_1](https://raw.githubusercontent.com/Nimish-Jain/Covid-19Detector/master/CovidSS_1.png)
 
-![Screenshot_2](https://github.com/Nimish-Jain/Covid-19Detector/CovidSS_2)
+![Screenshot_2](https://raw.githubusercontent.com/Nimish-Jain/Covid-19Detector/master/CovidSS_2.png)
 
 **Sources**
 1. https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
