@@ -17,3 +17,9 @@ Here are some Screenshots of the app.
 **Sources**
 1. https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
 2. https://www.who.int/emergencies/diseases/novel-coronavirus-2019
+
+**Team**
+1. https://github.com/Nimish-Jain
+2. https://github.com/arpit4120
+3. https://github.com/kirtikajain
+4. https://github.com/architgpt2802
