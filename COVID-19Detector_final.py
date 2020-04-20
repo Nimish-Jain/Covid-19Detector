@@ -103,7 +103,7 @@ B2=Button(text='ENTER',width=9,height=2,bg='lavender blush',fg='black',activebac
 def ent1():
     n=j.get()
     
-    dataset = pd.read_csv('COVID19_data.csv')
+    dataset = pd.read_csv('E:/Covid Project/COVID19_data.csv')
     x=dataset.iloc[:,1:-1].values
     y=dataset.iloc[:,-1].values
     x.astype(float)
@@ -200,22 +200,69 @@ def ent1():
     print(ypred[1])
     l3=Label(text="YOUR CHANCE OF TESTING POSITIVE=",font=6,bg='misty rose').grid(row=14,column=1,sticky=E)
     l33 = Label(text=ypred[1]*100,font=5,bg='coral1').grid(row=14,column=2,sticky=W)
-
-
+def callback():
+    b2['bg']="black"
+    b2['fg']="white"
+def callback1():
+    b3['bg']="black"
+    b3['fg']="white"
+def callback2():
+    b4['bg']="black"
+    b4['fg']="white"
+def callback3():
+    b5['bg']="black"
+    b5['fg']="white"
+def callback4():
+    b6['bg']="black"
+    b6['fg']="white"
+def callback5():
+    b7['bg']="black"
+    b7['fg']="white"
+def callback6():
+    b8['bg']="black"
+    b8['fg']="white"
+def callback7():
+    b9['bg']="black"
+    b9['fg']="white"
+def callback8():
+    b10['bg']="black"
+    b10['fg']="white"
+def callback9():
+    b11['bg']="black"
+    b11['fg']="white"
+def callback10():
+    b12['bg']="black"
+    b12['fg']="white"
+def callback11():
+    b13['bg']="black"
+    b13['fg']="white"
+    
 l1=Label(text="Select your Gender",font=8,fg='#646060',bg='misty rose').grid(row=4,column=1,sticky=W)
 l2=Label(text="Please select what symptoms are you facing",font=10,fg='#646060',bg='misty rose').grid(row=7,column=1,sticky=W)
-b2=Button(text="FEVER",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bget(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=8,column=3,sticky=W)
-b3=Button(text="COUGH",width=10,height=2,bg='lavender blush',fg='black',command=lambda:bget0(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=8,column=4,sticky=W)
-b4=Button(text="SHORTNESS OF BREATH",width=18,height=2,bg='lavender blush',fg='black',command=lambda:bgeta(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=8,column=5,sticky=W)
-b5=Button(text="SORE THROAT",width=15,height=2,bg='lavender blush',fg='black',command=lambda:bgetb(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=10,column=5,sticky=W)
-b6=Button(text="CHILLS",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgetc(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=9,column=4,sticky=W)
-b7=Button(text="MUSCLE PAIN",width=11,height=2,bg='lavender blush',fg='black',command=lambda:bgetd(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=9,column=5,sticky=W)
-b8=Button(text="NAUSEA",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgete(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=10,column=3,sticky=W)
-b9=Button(text="DIARRHOEA",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgetf(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=10,column=4,sticky=W)
-b10=Button(text="FATIGUE",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgetg(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=9,column=3,sticky=W)
-b11=Button(text="VOMITING",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgeth(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=11,column=3,sticky=W)
-b12=Button(text="HEADACHE",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgeti(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=11,column=4,sticky=W)
-b13=Button(text="MALAISE",width=9,height=2,bg='lavender blush',fg='black',command=lambda:bgetj(),activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus').grid(row=11,column=5,sticky=W)
+b2=Button(text="FEVER",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bget(),callback()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b2.grid(row=8,column=3,sticky=W)
+b3=Button(text="COUGH",width=10,height=2,bg='lavender blush',fg='black',command=lambda:[bget0(),callback1()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b3.grid(row=8,column=4,sticky=W)
+b4=Button(text="SHORTNESS OF BREATH",width=18,height=2,bg='lavender blush',fg='black',command=lambda:[bgeta(),callback2()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b4.grid(row=8,column=5,sticky=W)
+b5=Button(text="SORE THROAT",width=15,height=2,bg='lavender blush',fg='black',command=lambda:[bgetb(),callback3()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b5.grid(row=10,column=5,sticky=W)
+b6=Button(text="CHILLS",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgetc(),callback4()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b6.grid(row=9,column=4,sticky=W)
+b7=Button(text="MUSCLE PAIN",width=11,height=2,bg='lavender blush',fg='black',command=lambda:[bgetd(),callback5()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b7.grid(row=9,column=5,sticky=W)
+b8=Button(text="NAUSEA",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgete(),callback6()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b8.grid(row=10,column=3,sticky=W)
+b9=Button(text="DIARRHOEA",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgetf(),callback7()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b9.grid(row=10,column=4,sticky=W)
+b10=Button(text="FATIGUE",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgetg(),callback8()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b10.grid(row=9,column=3,sticky=W)
+b11=Button(text="VOMITING",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgeth(),callback9()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b11.grid(row=11,column=3,sticky=W)
+b12=Button(text="HEADACHE",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgeti(),callback10()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b12.grid(row=11,column=4,sticky=W)
+b13=Button(text="MALAISE",width=9,height=2,bg='lavender blush',fg='black',command=lambda:[bgetj(),callback11()],activebackground='black',activeforeground='white',bd=10,relief=SUNKEN,cursor='plus')
+b13.grid(row=11,column=5,sticky=W)
 
 
 
