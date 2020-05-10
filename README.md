@@ -14,6 +14,23 @@ Here are some Screenshots of the app.
 
 ![Screenshot 2](CovidSS_12.png)
 
+**Accuracies Of Different Algorithms**
+
+![KNN](Accuracy-KNN.png)
+
+![Naive Bayes](Accuracy-naive byes.png)
+
+![Random Forest](Accuracy-Random forest.png)
+
+![SVC](Accuracy-svc.png)
+
+![SVM](Accuracy-svm.png)
+
+**And the result with best accuracy**
+
+**Logistic Regression**
+
+![Logistic Regression](Accuracy-Logistic Regression.png)
 
 **Sources**
 1. https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
