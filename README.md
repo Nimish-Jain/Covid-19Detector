@@ -18,9 +18,9 @@ Here are some Screenshots of the app.
 
 ![KNN](Accuracy-KNN.png)
 
-![Naive Bayes](Accuracy-naive byes.png)
+![Naive_Bayes](Accuracy-naive_bayes.png)
 
-![Random Forest](Accuracy-Random forest.png)
+![Random_Forest](Accuracy-Random_forest.png)
 
 ![SVC](Accuracy-svc.png)
 
@@ -30,7 +30,7 @@ Here are some Screenshots of the app.
 
 **Logistic Regression**
 
-![Logistic Regression](Accuracy-Logistic Regression.png)
+![Logistic_Regression](Accuracy-Logistic_Regression.png)
 
 **Sources**
 1. https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
