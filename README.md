@@ -10,27 +10,27 @@ The app is build on Python progrraming language and the UI/UX is developed on th
 
 Here are some Screenshots of the app.
 
-![Screenshot_1](CovidSS_11.png)
+![Screenshot_1](Pictures/CovidSS_11.png)
 
-![Screenshot 2](CovidSS_12.png)
+![Screenshot 2](Pictures/CovidSS_12.png)
 
 **Accuracies Of Different Algorithms**
 
-![KNN](Accuracy-KNN.png)
+![KNN]Pictures/(Accuracy-KNN.png)
 
-![Naive_Bayes](Accuracy-naive_bayes.png)
+![Naive_Bayes](Pictures/Accuracy-naive_bayes.png)
 
-![Random_Forest](Accuracy-Random_forest.png)
+![Random_Forest](Pictures/Accuracy-Random_forest.png)
 
-![SVC](Accuracy-svc.png)
+![SVC](Pictures/Accuracy-svc.png)
 
-![SVM](Accuracy-svm.png)
+![SVM](Pictures/Accuracy-svm.png)
 
 **And the result with best accuracy**
 
 **Logistic Regression**
 
-![Logistic_Regression](Accuracy-Logistic_Regression.png)
+![Logistic_Regression](Pictures/Accuracy-Logistic_Regression.png)
 
 **Sources**
 1. https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
